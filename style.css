@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1D2230 !important;
+    color: white;
+
+}
+
+.hearder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a {
+    color: #D0D6E4;
+    text-decoration: none;
+
+
+}
+
+.menu a:hover {
+    color: #44BDD1;
+    text-decoration: underline;
+}
+
+.menu1 {
+    margin-left: 25px;
+
+}
+
+.home {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.image {
+    width: 40%;
+    margin: auto;
+
+}
+
+.image img {
+    width: 100%;
+
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.581);
+    margin-top: 30px;
+}
+
+.para p {
+    color: #828894;
+}
+
+.btn button {
+    padding: 8px;
+    width: 150px;
+    border: solid;
+    background-color: #3FB2CC;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.home2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.581);
+
+
+}
+
+.home2 h2 {
+    color: white;
+}
+
+.home1 h2 {
+    color: white;
+}
+
+.home1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.581);
+    margin-top: 20px;
+}
+
+.home3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.581);
+    margin-top: 20px;
+    text-align: start;
+}
+
+
+
+.text h1 {
+    color: white
+}
+
+.home3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.stay p {
+
+    color: rgba(255, 255, 255, 0.581);
+
+}
+
+.stay a {
+
+    color: #6CACA9;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.ligne {
+    width: 30%;
+    height: 1px;
+    background-color: #6CACA9;
+    margin-top: 3px;
+}
+
+.home4 {
+    margin-top: 100px;
+}
+
+.carde {
+    width: 98%;
+    padding: 12px;
+    background-color: #212a3cc1;
+    margin-left: 15px;
+    position: relative;
+
+}
+
+.carde p {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.721);
+    text-align: start;
+
+}
+
+.grand {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.name {
+    margin-left: 5px;
+    margin-top: 5px;
+    line-height: 0.1;
+}
+
+.name h6 {
+    font-size: 14px;
+
+}
+
+.name p {
+    font-size: 10px;
+
+}
+
+.quote {
+    width: 50px;
+    height: 50px;
+    text-align: start;
+    position: absolute;
+}
+
+.quote img {
+    margin-top: -50px;
+
+}
+
+.orphelin {
+    width: 40%;
+    height: 250px;
+    position: relative;
+    z-index: 1000;
+    margin: auto;
+    text-align: center;
+    bottom: -200px;
+    border-radius: 13px;
+    color: white;
+    background-color: #1d2230e2;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    margin-top: 8rem;
+    padding: 50px;
+    color: white;
+    background-color: #0B1524;
+}
+
+.lorem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location p {
+    margin-left: 20px;
+
+}
+
+.icon-location {
+    width: 20px;
+}
+
+.mail span {}
+
+.exemple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.exemple p {
+    margin-top: 13px;
+}
+
+.lien {
+    flex-direction: column;
+    display: flex;
+    line-height: 2;
+}
+
+.lien a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.lien a:hover {
+    text-decoration: underline;
+    color: #6CADAA;
+
+}
+
+.icone {
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    margin-top: 40px;
+}
+
+.input input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 20px;
+    
+
+}
+
+.input button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #3DB2CC;
+    color: white;
+}
+
+.orphelin {
+
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.orphelin p {
+    color: rgba(255, 255, 255, 0.697);
+    margin-top: 20px;
+}
+
+.orphelin h1 {
+    font-weight: bold;
+}
